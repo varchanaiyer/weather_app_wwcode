@@ -1,0 +1,4 @@
+The weather data would go here, and it should be in csv format.
+date,temp,humidity,wind_speed
+2022-01-01,15.3,78,5.2
+2022-01-02,16.1,80,5.0
