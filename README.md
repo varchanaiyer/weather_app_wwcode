@@ -18,3 +18,29 @@ Navigate into the repository using `cd weather-forecasting-app`
 
 Install the necessary packages using pip:
 
+pip install -r requirements.txt
+
+
+
+### Running
+
+To run the app, first start the backend:
+
+python backend/app.py
+
+Then open `frontend/index.html` in your browser.
+
+## Architecture
+
+The backend of the app is built with Python. It fetches real-time weather data, preprocesses a dataset, trains a machine learning model for weather prediction, and uploads the data to AWS S3.
+
+The front end is a simple web page built with HTML, CSS, and JavaScript.
+
+## Contributing
+
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
